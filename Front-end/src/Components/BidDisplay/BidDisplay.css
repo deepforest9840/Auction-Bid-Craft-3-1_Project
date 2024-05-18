@@ -1,0 +1,86 @@
+/* BidDisplay.css */
+
+.biddisplay-container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.biddisplay-image {
+  flex: 1;
+  padding: 10px;
+}
+
+.biddisplay-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.biddisplay-details {
+  flex: 2;
+  padding: 10px 20px;
+}
+
+.biddisplay-details h3 {
+  margin-top: 0;
+}
+
+.bidding-details {
+  margin-top: 20px;
+}
+
+.bid-section {
+  margin-top: 10px;
+}
+
+.bid-section input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.bid-section button {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.bid-section button:hover {
+  background-color: #218838;
+}
+
+.bid-history {
+  margin-top: 20px;
+}
+
+.bid-history table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.bid-history th, .bid-history td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.bid-history th {
+  background-color: #f4f4f4;
+}
+
+.bid-history tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

@@ -1,0 +1,155 @@
+.navbar {
+  position: relative;
+  
+}
+
+.sidenav {
+  position: fixed;
+ margin-top: 65px;
+  left: -290px; /* Start position outside the viewport */
+  width: 290px;
+  height: 100%;
+ 
+  background-color: #9ee8f1;
+  overflow-x: hidden;
+  transition: 0.3s; /* Add transition for smooth animation */
+  padding-top: 0px; /* Adjust according to your needs */
+}
+
+.sidenav p {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 23px;
+  color: #2c9050;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.sidenav p:hover {
+  color:#ea0b0b;
+}
+
+/* Add class for open state */
+.sidenav.open {
+  left: 0; /* Slide in from left */
+}
+
+.three_dot {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  padding: 1px;
+  box-shadow: 0 1px 3px -2px black;
+  margin-bottom: 1px;
+}
+.nav-logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-logo p{
+  color: #171717;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.three_dot{
+  width:30px;
+  height:30px;
+  margin-top: 20px;
+
+}
+
+.nav-search input{
+  margin-top: 12px;
+  width:230px;
+  height:35px;
+  background-color: aqua;
+}
+.nav-search button{
+  margin-top: 12px;
+  width:90px;
+  height:40.56px;
+  background-color: rgb(255, 246, 127);
+}
+.nav-menu{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  color: #626262;
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav-menu li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
+}
+.nav-menu hr{
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 10px;
+  background: rgb(228, 90, 10);
+}
+.nav-login-cart{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-login-cart button{
+  width: 157px;
+  height: 58px;
+  outline: none;
+  border: 1px solid #7a7a7a;
+  border-radius: 75px;
+  color: #515151;
+  font-size: 20px;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
+}
+.nav-login-cart img{
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.nav-login-cart button:active{
+  background: #f3f3f3;
+}
+.nav-cart-count{
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -35px;
+  margin-left: -25px;
+  border-radius: 11px;
+  font-size: 14px;
+  background: red;
+  color: white;
+}
+.nav-create-bid {
+  display: flex;
+ 
+  
+}
